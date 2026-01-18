@@ -17,12 +17,10 @@ EMAIL: wuwr@uci.edu
 </head>
 
 <body>
-  <div class="container">
-
-    <nav class="navbar fixed-top navbar-expand bg-body-tertiary">
+  <nav class="navbar sticky-top navbar-expand bg-body-tertiary">
       <div class="container-fluid">
         <a href="index.html" class="navbar-brand">
-          <img src="https://placehold.co/50" alt="logo"> WANRONG WU
+          <img src="https://placehold.co/50?text=LOGO" alt="logo"> WANRONG WU
         </a>
 
         <ul class="navbar-nav">
@@ -45,38 +43,87 @@ EMAIL: wuwr@uci.edu
         </ul>
       </div>
     </nav>
-    
+
+  <div class="my-5 mx-5 container">
+
     <div class="about_container">
-        <h1>About Me</h1>
-        <div class="about_content">
-            <img src="https://placehold.co/300" alt="about me image">
+        <!-- <h1 class="text-decoration-underline">About Me</h1> -->
+        <div class="about_content d-flex justify-content-center">
+            <img class="mx-5 my-3" src="https://placehold.co/300?text=IMG+HERE" alt="about me image">
             <div class="about_text">
                 <h2>Wanrong Wu</h2>
+                <p>Some really really long but not too long but long enough to take up this empty spot paragraph introducing myself that is relevant and/or interesting and memorable.</p>
+                <p>Maybe split it into two or more paragraphs to avoid a giant block of text that no visitor to this website or prospective employer will take the time to read. </p>
                 <ul>
-                    <li>Random Fact 1</li>
-                    <li>Random Fact 2</li>
-                    <li>Random Fact 3</li>
+                    <li>Relevant/Random Fact 1</li>
+                    <li>Relevant/Random Fact 2</li>
+                    <li>Relevant/Random Fact 3</li>
                 </ul>
             </div>
         </div>
     </div>
 
-    <div class="education_container">
-        <h1>Education</h1>
-        <div class="education_content">
-            <img src="https://placehold.co/200" alt="UCI emblem">
-            <div class="education_text">
+    <div class="education_container text-center">
+        <h1 class="mt-5 mb-4 mx-5 text-decoration-underline">Education</h1>
+        <div class="mt-4 mb-5 education_content d-flex justify-content-center">
+            <img class="mx-5"src="https://placehold.co/200?text=LOGO+HERE" alt="UCI emblem">
+            <div class="pt-2 education_text">
                 <h2>University of California, Irvine</h2>
-                <h3>Software engineering B.S (Exp. 2028)</h3>
-                <h2>Experience V</h2>
+                <h3>Software Engineering B.S - Exp. 2028</h3>
+
+                <div class="accordion" id="uci_coursework_parent">
+                  <div class="accordion-item">
+                    <h4 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#uci_coursework">
+                        Coursework
+                      </button>
+                    </h4>
+                    <div id="uci_coursework" class="accordion-collapse collapse show" data-bs-parent="#uci_coursework_parent">
+                      <ul>
+                        <li>Data Structures and Analysis</li>
+                        <li>Requirements Engineering</li>
+                        <li>Human Computer Interaction</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="my-5 education_content d-flex justify-content-center">
+            <img class="mx-5"src="https://placehold.co/200?text=LOGO+HERE" alt="SLHS emblem">
+            <div class="pt-2 education_text">
+                <h2>San Leandro High School</h2>
+                <h3>High School Diploma - 2024</h3>
+
+                <div class="accordion" id="slhs_coursework_parent">
+                  <div class="accordion-item">
+                    <h4 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#slhs_coursework">
+                        Coursework
+                      </button>
+                    </h4>
+                    <div id="slhs_coursework" class="accordion-collapse collapse show" data-bs-parent="#slhs_coursework_parent">
+                      <ul>
+                        <li>AP Computer Science A</li>
+                        <li>AP Statistics</li>
+                        <li>AP Microeconomics</li>
+                        <li>AP Macroeconomics</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
             </div>
         </div>
     </div>
 
-    <div class="about_experience">
+    <div class="mt-5 about_experience">
 
-      <div class="row">
-        <div class="col-3 card">
+      <div class="row d-flex text-center justify-content-center">
+        <h1 class="mt-5 mb-4 mx-5 text-decoration-underline">Experience</h1>
+        <div class="col-3 mx-4 my-3 card">
           <div class="card-body">
             <img class="card-img-top" src="https://placehold.co/100" alt="Experience one image">
             <div class="card-title">Experience 1 Name</div>
@@ -84,7 +131,7 @@ EMAIL: wuwr@uci.edu
           </div>
         </div>
   
-        <div class="col-3 card">
+        <div class="col-3 mx-4 my-3 card">
           <div class="card-body">
             <img class="card-img-top" src="https://placehold.co/100" alt="project two image">
             <div class="card-title">Experience 2 Name</div>
@@ -92,7 +139,7 @@ EMAIL: wuwr@uci.edu
           </div>
         </div>
   
-        <div class="col-3 card">
+        <div class="col-3 mx-4 my-3 card">
           <div class="card-body">
             <img class="card-img-top" src="https://placehold.co/100" alt="project three image">
             <div class="card-title">Experience 3 Name</div>
@@ -101,19 +148,50 @@ EMAIL: wuwr@uci.edu
         </div>
       </div>
 
-    </div>
-
-    <footer class="row">
-      <p>wanrongwu.com</p>
-      <p>Copyright (C) 2026 by Wanrong Wu</p>
-    </footer>
+      <div class="row d-flex text-center justify-content-center">
+        <div class="col-3 mx-4 my-3 card">
+          <div class="card-body">
+            <img class="card-img-top" src="https://placehold.co/100" alt="Experience one image">
+            <div class="card-title">Experience 4 Name</div>
+            <div class="card-text">This is some description of a super cool experience that I may or may not have been a part of.</div>
+          </div>
+        </div>
   
+        <div class="col-3 mx-4 my-3 card">
+          <div class="card-body">
+            <img class="card-img-top" src="https://placehold.co/100" alt="project two image">
+            <div class="card-title">Experience 5 Name</div>
+            <div class="card-text">This is some description of a super cool experience that I may or may not have been a part of.</div>
+          </div>
+        </div>
+  
+        <div class="col-3 mx-4 my-3 card">
+          <div class="card-body">
+            <img class="card-img-top" src="https://placehold.co/100" alt="project three image">
+            <div class="card-title">Experience 6 Name</div>
+            <div class="card-text">This is some description of a super cool experience that I may or may not have been a part of.</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
   </div>
+  
+  <footer class="px-3 pt-3 pb-1 bg-body-tertiary">
+    <p>Website: wanrongwu.com</p>
+    <p>Copyright (C) 2026 by Wanrong Wu</p>
+  </footer>
+
+  <!-- Script is added after to ensure all HTML elements are rendered before JS attempts to make any changes -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- <p>
     <a href="http://validator.w3.org/check?uri=referer">
        W3C validator
     </a>
   </p> -->
+
+
 </body>
 </html>
