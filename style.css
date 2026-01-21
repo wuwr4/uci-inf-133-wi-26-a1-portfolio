@@ -175,6 +175,64 @@ footer {
     height: 75% !important;
 }
 
+/* Connect Page */
+.connect_outer_container {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.connect_header {
+    text-align: center;
+}
+
+.connect_row {
+    margin-top: 1.5rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+.connect_messaging {
+    display: block;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.connect_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.connect_form_control {
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.connect_info {
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.connect_info_item_container {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.connect_info_item {
+    padding-top: 0.5rem;
+    margin-left: 1rem;
+}
+
 /*1 = 0.25
 2 = 0.50
 3 = 1
