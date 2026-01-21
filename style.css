@@ -137,6 +137,44 @@ footer {
     margin-right: 1.5rem;
 }
 
+/* Projects Page */
+.projects_outer_container {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.project_row {
+    display: flex;
+    justify-content: center;
+}
+
+.project_card {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.project_card_body {
+    display: flex;
+    align-items: center;
+}
+
+.project_text {
+    margin-right: 0.25rem;
+}
+
+.project_link_button {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-top: 0rem;
+}
+
+.project_image {
+    width: 75% !important;
+    height: 75% !important;
+}
+
 /*1 = 0.25
 2 = 0.50
 3 = 1
