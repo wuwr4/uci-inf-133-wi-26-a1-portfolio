@@ -42,7 +42,15 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
-
+- Didn't change <b> tags to <strong> --> the text was bolded as a stylistic choice rather than for semantic emphasis
+- Ignored all image and alt text warnings --> the images are temporary placeholders due to time constraints
+- Ignored suggestion to include a "dir" attribute --> the text is all in English and never changes direction
+- Ignored suggestion to include unicode rtl/ltr marks --> the text is all in English and never changes direction
+- Ignored suggestion to mark visual lists --> the list uses arrows in place of bullet points as a stylistic choice, which is difficult to emulate using traditional list elements
+- Ignored warnings indicating link text is not meaningful --> the links are the names of the corresponding page in the navbar and can't be more descriptive without cluttering the navbar
+- Ignored warnings about improper heading usages --> the headers are used in denote different sections of each page
+- Ignored warning about Javascript potentiallycausing seizure inducing screnn flickers --> the JS is used for collapsing and expanding animations only, there is no flickering
+- Ignored warning about form submission element --> the form does not collect user data and only serves as a visual of its intended functionality 
 
 
 4. How long, in hours, did it take you to complete this assignment?
@@ -56,7 +64,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-- I asked a friend for their feedback on some of my stylistic and layout choices to obtain an outside perspective on my designs.
+- I asked a friend for their feedback on some of my stylistic and layout choices to obtain an outside perspective of my designs.
 
 
 7. Is there anything special we need to know in order to run your code?
