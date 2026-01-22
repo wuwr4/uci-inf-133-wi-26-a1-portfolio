@@ -68,5 +68,5 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 7. Is there anything special we need to know in order to run your code?
-- Nope.
+- No.
 
